@@ -1,0 +1,21 @@
+{
+    "plugins": ["@shufo/prettier-plugin-blade"],
+    "overrides": [
+        {
+            "files": ["*.php"],
+            "options": {
+                "parser": "php",
+                "tabWidth": 2,
+                "singleQuote": true
+            }
+        },
+        {
+            "files": ["*.blade.php"],
+            "options": {
+                "parser": "blade",
+                "tabWidth": 2,
+                "singleQuote": true
+            }
+        }
+    ]
+}
