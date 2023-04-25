@@ -1,0 +1,31 @@
+{
+   "compilerOptions": {
+     "allowJs": true,
+     "target": "esnext",
+     "useDefineForClassFields": true,
+     "allowSyntheticDefaultImports": true,
+     "composite": true,
+     "module": "esnext",
+     "moduleResolution": "node",
+     "strict": true,
+     "jsx": "preserve",
+     "sourceMap": false,
+     "resolveJsonModule": true,
+     "esModuleInterop": true,
+     "lib": ["esnext", "dom"],
+     "baseUrl": "src",
+     "typeRoots": [
+       "./node_modules/@types",
+       "./src/@types"
+     ],
+     "types": ["vite/client"],
+     "paths": {
+      "@/*": ["resources/*"]
+    }
+   },
+   "include": [
+     "resources/js/**/*.ts",
+     "resources/js/**/*.d.ts",
+     "resources/**/*.vue"
+   ]
+ }
